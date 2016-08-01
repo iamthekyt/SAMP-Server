@@ -17,6 +17,6 @@ Everyone can contribute. Just specifie what you have changed or added.
 See here.
 
 [license-svg]: https://img.shields.io/badge/license-GNU%20v.3-blue.svg
-[license-url]: https://github.com/iamthekyt/SAMP-Server
+[license-url]: https://github.com/obernardovieira/SAMP-Server
 [status-svg]: https://img.shields.io/pypi/status/Django.svg?maxAge=2592000
-[status-url]: https://github.com/iamthekyt/SAMP-Server
+[status-url]: https://github.com/obernardovieira/SAMP-Server
