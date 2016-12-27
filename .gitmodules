@@ -1,0 +1,3 @@
+[submodule "plugin/DynamicData"]
+	path = plugin/DynamicData
+	url = git@github.com:obernardovieira/DynamicData.git
