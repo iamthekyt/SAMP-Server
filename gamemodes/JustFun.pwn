@@ -15,11 +15,11 @@
 #include "../include/useful"
 #include "../include/bank"
 #include "../include/playerInfo"
-#include "../include/store"
 #include "../include/loadInteriors"
 #include "../include/loadVehicles"
 #include "../include/trunk"
 #include "../include/textdraw"
+#include "../include/store"
 #include "../include/teams"
 #include "../include/keychain"
 
@@ -47,6 +47,7 @@ public OnGameModeInit() {
 	loadEatPlaces();
 	loadTeams();
 	loadKeyChains();
+	loadStores();
 	
 	DisableInteriorEnterExits();
 	ManualVehicleEngineAndLights();
@@ -152,6 +153,11 @@ public OnPlayerCommandText(playerid, cmdtext[])
 	else if (!strcmp("/leaveteam", cmdtext, true))
 	{
 		leaveTeam(playerid);
+		return 1;
+	}
+	else if (!strcmp("/skin", cmdtext, true))
+	{
+		process_clothes_store_cmd(playerid);
 		return 1;
 	}
 	
